@@ -1,0 +1,18 @@
+<resources>
+
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleTextStyle</item>
+        <item name="android:actionMenuTextColor">@color/red</item>
+    </style>
+    <style name="MyActionBarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+</resources>
